@@ -8,6 +8,9 @@ get '/adminBoard' ,to:'static_pages#Administration.BoardofAdministrations'
 get 'adminDepartment' ,to:'static_pages#Administration.DepartmentHead'
 get 'adminFaculty', to:'static_pages#Administration.FacultyMembers'
 get 'adminSenior' ,to:'static_pages#Administration.Seniors&ExecutiveMembers'
+get 'tuition' ,to:'static_pages#TuitionFeeAndScolarships'
+get 'overview' ,to:"static_pages#Researchoverview"
+get 'operating' ,to:"static_pages#ResearchAndOperating"
 
 
 end
