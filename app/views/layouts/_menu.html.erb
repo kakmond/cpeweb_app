@@ -9,11 +9,9 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
 li {
     float: left;
 }
-
 li a, .dropbtn {
     display: inline-block;
     color: white;
@@ -21,15 +19,12 @@ li a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
-
 li.dropdown {
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -38,7 +33,6 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -46,9 +40,7 @@ li.dropdown {
     display: block;
     text-align: left;
 }
-
 .dropdown-content a:hover {background-color: #f1f1f1}
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -56,17 +48,55 @@ li.dropdown {
 </head>
 <body>
 <img src="https://www.cpe.ku.ac.th/wp-content/uploads/2014/08/logo_blue2-1.jpg" alt="CPE_logo" width="525" height="115">
+  <a href="https://www.facebook.com/KasetsartCPE "><img src="https://image.freepik.com/free-icon/facebook-logo_318-49940.jpg " alt="facebook_logo " width="50 " height="50 " align="right " hspace="20 "></a>
+<a href="mailto:cpe@ku.ac.th "><img src="http://www.telegraph.co.uk/content/dam/technology/2016/04/01/gmail_3467508a-large_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpg "  width="75 " height="50 " align="right " ></a>
 <ul>
   <li><%= link_to "Home", '/home' %></li>
-  <li><%= link_to "Help", '/help' %></li>
   <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <a href="javascript:void(0)" class="dropbtn">About</a>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="#">History</a>
+      <a href="#">Facts</a>
+      <a href="#">Achieve</a>
     </div>
   </li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Administration</a>
+    <div class="dropdown-content">
+      <a href="/adminBoard">Department Heads</a>
+      <a href="/adminDepartment">Board of Administrations</a>
+      <a href="/adminSenior">Seniors & Executive Members</a>
+       <a href="/adminFaculty">Faculty Members</a>
+    </div>
+  </li>
+  
+  <li><%= link_to "Tuition Fee and Scolarships", '/tuition' %></li>
+  
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Research</a>
+    <div class="dropdown-content">
+      <a href="/overview">Overview</a>
+      <a href="/operating">Research Areas and Labs</a>
+    </div>
+  </li>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </ul>
 
 
