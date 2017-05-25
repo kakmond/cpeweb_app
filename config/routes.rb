@@ -12,6 +12,8 @@ get 'tuition' ,to:'static_pages#TuitionFeeAndScolarships'
 get 'overview' ,to:"static_pages#Researchoverview"
 get 'operating' ,to:"static_pages#ResearchAndOperating"
 get 'history', to:"static_pages#History"
-
+get 'about', to:"static_pages#about"
+get 'new1', to:"static_pages#news1"
+get 'activity' ,to:"static_pages#activity"
 
 end
