@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<style>
+    #frame {
+        border: 2px solid black;
+        background-color: rgb(220, 220, 220);
+    }
+
+    #middle_frame {
+        margin-left: 50px;
+        margin-right: 50px;
+        float: center;
+    }
+
+    #bottom_frame {
+        margin-left: 80px;
+        margin-right: 50px;
+    }
+    #txt1{
+      margin-left: 20px;
+    }
+</style>
+
+<body>
+    <div id="frame">
+        <h1><P ALIGN="Center">History</h1>
+        <div id="middle_frame">
+            <p>
+            <P style="color: green">  OVERVIEW OF OUR DEPARTMENT
+            </p>
+            <br>
+            Our Department of Computer Engineering in the Faculty of Engineering, Kasetsart University, was founded on February 3rd, 1989 with the mission to teach, research, develop and service in related areas such that our graduates will meet the market need in Thailand as well as the region. Currently, the department is offering degrees in computer engineering, information technology, software engineering and knowledge engineering as follow:
+          </br>
+          <p>
+            <div id ="txt1">
+                <li>Bachelor of Engineering in Computer Engineering</li>
+                    <li>Bachelor of Engineering in Software and Knowledge Engineering</li>
+                        <li>Master of Science in Information Technology</li>
+                            <li>Master of Engineering in Computer Engineering</li>
+                                <li>Doctor of Engineering in Computer Engineering</li>
+                              </div>
+              </p>
+              <p>
+              In addition to our course offerings, many research units have been founded by faculty members in our department, ranging from development centers and specific research centers to research laboratories. These units are either under the umbrella of the university, the faculty or our department. This leads to the cooperation in research within the university as well as institutions inside and outside the country. Most of our researches have funding from the university, the Royal Thai government, foreign governments and several companies both inside and outside the country.
+            </br>
+            <p>
+Our department encourages our students, staffs, researchers and faculty members to continuously and repeatedly advance the knowledge in the area. We support our members in several ways from participating in academic training, publishing papers in conferences and seeking cooperation with experts in related area worldwide.
+            </p>
+            <p>
+Our vision is to continuously take a lead role in education, training and research in computer engineering to make our graduates fully prepared and ready for the rapidly growing industry in Thailand as well as the region.
+          </br>
+        </div>
+      </div>
+
+</body>
+
+</html>
