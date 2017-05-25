@@ -11,6 +11,7 @@ get 'adminSenior' ,to:'static_pages#Administration.Seniors&ExecutiveMembers'
 get 'tuition' ,to:'static_pages#TuitionFeeAndScolarships'
 get 'overview' ,to:"static_pages#Researchoverview"
 get 'operating' ,to:"static_pages#ResearchAndOperating"
+get 'history', to:"static_pages#History"
 
 
 end
