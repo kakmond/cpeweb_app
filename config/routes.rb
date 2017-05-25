@@ -15,5 +15,8 @@ get 'history', to:"static_pages#History"
 get 'about', to:"static_pages#about"
 get 'new1', to:"static_pages#news1"
 get 'activity' ,to:"static_pages#activity"
+get 'academic',to:"static_pages#academics"
+get 'offering' ,to:"static_pages#courseoffering"
+get 'certificate' ,to:"static_pages#certificate"
 
 end
